@@ -1,0 +1,28 @@
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_CPack_Packages
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+# External projects
+*-prefix/
+*.deb
+
+.vscode
+.idea
+.DS_Store
+
+build
+
+tests/pam_visa_test
