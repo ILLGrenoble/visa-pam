@@ -58,7 +58,7 @@ The following instructions have been tested and validated to work on an Ubuntu (
 ### Package dependencies
 
 ```
-apt install libpam-dev libcurl4-gnutls-dev libssl-dev check build-essential
+apt install libpam-dev libpam-cap libcurl4-gnutls-dev libssl-dev check build-essential cmake pkg-config
 ```
 
 ### Generating keys
